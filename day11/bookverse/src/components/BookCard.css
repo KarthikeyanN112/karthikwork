@@ -1,0 +1,14 @@
+.book-card {
+  border: 1px solid #9b2222;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #140f0f;
+}
+
+.book-card.list {
+  text-align: left;
+}
+
+.book-card.grid {
+  text-align: center;
+}

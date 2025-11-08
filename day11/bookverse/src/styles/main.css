@@ -1,0 +1,10 @@
+body {
+  background: #0f4478;
+  color: #333;
+}
+.book-grid {
+  transition: transform 0.2s ease;
+}
+.book-grid:hover {
+  transform: scale(1.02);
+}

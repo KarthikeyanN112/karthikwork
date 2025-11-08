@@ -1,0 +1,7 @@
+{
+  "books": [
+    { "id": 1, "title": "Clean Code", "author": "Robert C. Martin", "price": 399, "bio": "Software craftsmanship and clean architecture." },
+    { "id": 2, "title": "The Pragmatic Programmer", "author": "Andrew Hunt", "price": 499, "bio": "Best practices and pragmatic tips for developers." },
+    { "id": 3, "title": "Eloquent JavaScript", "author": "Marijn Haverbeke", "price": 349, "bio": "Modern guide to JavaScript programming." }
+  ]
+}
