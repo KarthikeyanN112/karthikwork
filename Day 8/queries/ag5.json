@@ -1,8 +1,0 @@
-[{
-  "energy_kWh": 6.2,
-  "timestamp": {
-    "$date": "2025-10-29T11:00:00.000Z"
-  },
-  "meter": "MTR002",
-  "location": "Mumbai-Plant"
-}]
