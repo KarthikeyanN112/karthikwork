@@ -1,0 +1,19 @@
+{
+  "name": "day_17",
+  "version": "1.0.0",
+  "description": "\"sampleNodeJSApp\"",
+  "keywords": [
+    "ISC"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "Karthik"
+  },
+  "license": "ISC",
+  "author": "Karthik",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  }
+}
