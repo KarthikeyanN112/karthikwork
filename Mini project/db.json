@@ -1,0 +1,68 @@
+{
+  "packages": [
+    {
+      "id": "1",
+      "title": "Goa Beach Escape",
+      "price": 499,
+      "duration": "4 Days",
+      "image": "/images/goa.jpg",
+      "description": "Relax at the beaches of Goa with water sports and nightlife."
+    },
+    {
+      "id": "2",
+      "title": "Himalayan Trek",
+      "price": 899,
+      "duration": "7 Days",
+      "image": "/images/himalayas.jpg",
+      "description": "A guided trek with camping and local cuisine."
+    },
+    {
+      "id": "3",
+      "title": "Kerala Backwaters Escape",
+      "price": 699,
+      "duration": "5 Days",
+      "image": "/images/kerala.jpg",
+      "description": "Enjoy houseboats, backwaters, tea plantations, and Kerala cuisine."
+    },
+    {
+      "id": "4",
+      "title": "Rajasthan",
+      "price": 599,
+      "duration": "5 Days",
+      "image": "/images/rajasthan.jpg",
+      "description": "Desert fun."
+    },
+    {
+      "id": "5",
+      "title": "Ladakh",
+      "price": 999,
+      "duration": "5 Days",
+      "image": "/images/ladakh.jpg",
+      "description": "Explore the Peak."
+    },
+    {
+      "id": "6",
+      "title": "Sikkim",
+      "price": 799,
+      "duration": "5 Days",
+      "image": "/images/sikkim.jpg",
+      "description": "North east culture."
+    }
+  ],
+  "bookings": [
+    {
+      "id": "c217",
+      "name": "Karthik",
+      "email": "karthikeyann.hvs2020@gmail.com",
+      "guests": 1,
+      "packageId": null
+    },
+    {
+      "id": "108a",
+      "name": "Karthikeyan N",
+      "email": "karthikeyanarayanasamy@gmail.com",
+      "guests": 1,
+      "destination": "Ladakh"
+    }
+  ]
+}

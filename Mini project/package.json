@@ -1,0 +1,38 @@
+{
+  "name": "travel-booking-vite",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"vite\" \"npm:json-server\"",
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 5000",
+    "json-server": "json-server --watch db.json --port 4000 --delay 300"
+  },
+  "dependencies": {
+    "axios": "^1.13.2",
+    "bootstrap": "^5.3.8",
+    "concurrently": "^9.2.1",
+    "formik": "^2.4.9",
+    "json-server": "^1.0.0-beta.3",
+    "prop-types": "^15.8.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-router-dom": "^7.9.6",
+    "react-transition-group": "^4.4.5",
+    "yup": "^1.7.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "@vitejs/plugin-react": "^5.1.0",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.4.24",
+    "globals": "^16.5.0",
+    "vite": "^7.2.2",
+    "vite-plugin-pwa": "^1.1.0"
+  }
+}

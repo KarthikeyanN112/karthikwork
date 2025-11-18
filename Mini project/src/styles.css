@@ -1,0 +1,7 @@
+body { background: #E8F8F5; }
+.hero { background: linear-gradient(90deg, rgba(232, 225, 94, 0.08), rgba(66, 82, 107, 0.02)); border-radius: 12px; padding: 2rem; margin-bottom: 1.5rem; }
+.card:hover { transform: translateY(-4px); transition: transform .2s ease; }
+.fade-enter { opacity: 0; transform: translateY(10px); }
+.fade-enter-active { opacity: 1; transform: translateY(0); transition: opacity 300ms, transform 300ms; }
+.fade-exit { opacity: 1; }
+.fade-exit-active { opacity: 0; transition: opacity 300ms; }
