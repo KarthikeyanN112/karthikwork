@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html><head><title>Day22 Auth</title><link rel="stylesheet" href="/css/styles.css"></head>
+<body>
+<nav>
+ <a href="/">Home</a> |
+ <% if (!user) { %>
+  <a href="/register">Register</a> |
+  <a href="/login">Login</a>
+ <% } else { %>
+  <form action="/logout" method="POST" style="display:inline;"><button>Logout</button></form> |
+  <a href="/dashboard">Dashboard</a>
+  <% if (user.role === 'admin') { %> | <a href="/admin">Admin</a> <% } %>
+ <% } %>
+</nav>
+<main><%- body %></main></body></html>
