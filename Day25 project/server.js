@@ -1,4 +1,4 @@
-require("dotenv").config();
+require("dotenv").config(); 
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
@@ -18,6 +18,12 @@ mongoose
   .then(() => console.log("MongoDB Connected"))
   .catch((err) => console.log(err));
 
+// ✅ Home Route
+app.get("/", (req, res) => {
+  res.send("Welcome to the API. MongoDB is connected!");
+});
+
+// Status Route
 app.get("/status", (req, res) => {
   res.send("App is live");
 });
@@ -31,4 +37,4 @@ app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
 
-module.exports = app; // IMPORTANT for testing
+module.exports = app;
